@@ -1,0 +1,11 @@
+// Top-level build file for plugins, repositories, and other configuration options.
+
+plugins {
+    // Use a modern version of the Android Gradle Plugin.
+    // 'false' means it's not applied to the root project itself, but makes it available to modules.
+    id 'com.android.application' version '8.13.1' apply false
+    id 'com.android.library' version '8.13.1' apply false
+}
+
+// The 'buildscript' and 'allprojects' blocks are no longer needed here for repositories.
+// They are now managed in settings.gradle.

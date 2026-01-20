@@ -1,0 +1,6 @@
+# Module-specific build outputs
+build/
+.gradle/
+*.iml
+local.properties
+
